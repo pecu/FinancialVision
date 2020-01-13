@@ -1,6 +1,9 @@
 # Explainable Deep Convolutional Candlestick Learner
-#### We provide a framework explaining the way that learned model determine the specific candlestick patterns , which is based on local search adversarial attacks.
-* Co-author: Jun-Hao Chen, Samuel Yen-Chi Chen, Yun-Cheng Tsai, and Chih-Shiang Shur
+##### We provide a framework explaining the way that learned model determine the specific candlestick patterns,
+##### which is based on local search adversarial attacks.
+Jun-Hao Chen, Samuel Yen-Chi Chen, Yun-Cheng Tsai, and Chih-Shiang Shur    
+    
+[[ArXiv]](https://arxiv.org/pdf/2001.02767)
 
 ## Implementations
 
