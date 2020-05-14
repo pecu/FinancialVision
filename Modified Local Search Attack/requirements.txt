@@ -34,7 +34,7 @@ scipy==1.4.1
 six==1.13.0
 tensorboard==1.15.0
 tensorflow-estimator==1.15.1
-tensorflow-gpu==1.15.0
+tensorflow-gpu==1.15.2
 tensorflow-gpu-estimator==2.1.0
 termcolor==1.1.0
 tqdm==4.41.1
