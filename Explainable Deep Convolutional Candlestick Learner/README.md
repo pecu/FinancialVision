@@ -2,7 +2,7 @@
 
 [Jun-Hao Chen](o1r2g3a4n5i6z7e8@gmail.com), [Samuel Yen-Chi Chen](ycchen1989@gmail.com), [Yun-Cheng Tsai](pecu610@gmail.com), and [Chih-Shiang Shur](aaa123848@gmail.com)    
     
-[[ ArXiv ]](https://arxiv.org/pdf/2001.02767)
+[[ ArXiv ]](https://arxiv.org/abs/2001.02767)
 
 
 We provide a framework explaining the way that learned model determine the specific candlestick patterns,    
