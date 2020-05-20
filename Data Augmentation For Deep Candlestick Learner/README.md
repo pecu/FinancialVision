@@ -20,7 +20,7 @@ It will open a new way for finance community to employ existing machine learning
   ----                     | ---   | ----       |  ---       | ---------  |  -------  
   H0  | 245 |  -0.0575 |  0.2386  | -3.7736 |  0.0002
 
-![Alt text](/images/result/adv_examples.PNG)
+![Alt text](./images/result/adv_examples.PNG)
 
 ## Requirements
 * Numpy == 1.17.0  
