@@ -14,6 +14,9 @@ It will open a new way for finance community to employ existing machine learning
 
 ## Implementations
 
+## Experiments  
+To compare the performance of the two models, we design a [web-based game](https://ntuelvish.github.io/candlestick_challenge/v3/index.html) as the questionnaire.  
+
 ## Results
 * Dependent Paired T Test  
 The comparison between the output data of CVAE and our Modified Local Search AttackSampling model is significant.  
