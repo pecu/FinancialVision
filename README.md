@@ -10,6 +10,8 @@ The project adopts deep learning models for financial data visualization. In fin
 
 ## PecuLab
 
+{% youtube 97eegbLcQ24 %}
+
 - Funder & Principal Investigator (PI): Yun-Cheng Tsai [Google Scholar](https://scholar.google.com/citations?user=a2LHNL8AAAAJ&hl=zh-TW)
 - Consultant: Samuel Yen-Chi Chen [Google Scholar](https://scholar.google.com/citations?user=A6dc7qMAAAAJ&hl=zh-TW)
 - Researcher: Jun-Hao Chen
