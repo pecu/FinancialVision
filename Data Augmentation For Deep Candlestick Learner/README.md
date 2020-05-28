@@ -4,13 +4,7 @@
 
 [[ ArXiv ]](https://arxiv.org/abs/2005.06731)
 
-Deep learning models require large data set to perform well,  
-yet sometimes it is difficult to get sufficient data in some field such as financial trading.  
-
-We propose a Modified Local Search AttackSampling method to augment the candlestick data,  
-which is high-quality data and hard to distinguish by human.  
-
-It will open a new way for finance community to employ existing machine learning techniques even if the dataset is small.
+To successfully build a deep learning model, it will need a large amount of labeled data. However, labeled data are hard to collect in many use cases. To tackle this problem, a bunch of data augmentation methods have been introduced recently and have demonstrated successful results in computer vision, natural language and so on. For financial trading data, to our best knowledge, successful data augmentation framework has rarely been studied. Here we propose a Modified Local Search Attack Sampling method to augment the candlestick data, which is a very important tool for professional trader. Our results show that the proposed method can generate high-quality data which are hard to distinguish by human and will open a new way for finance community to employ existing machine learning techniques even if the dataset is small.
 
 ## Implementations
 
