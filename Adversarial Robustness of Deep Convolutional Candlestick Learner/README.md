@@ -2,7 +2,7 @@
 
 [Jun-Hao Chen](o1r2g3a4n5i6z7e8@gmail.com), [Samuel Yen-Chi Chen](ycchen1989@gmail.com), [Yun-Cheng Tsai](pecu610@gmail.com), and [Chih-Shiang Shur](aaa123848@gmail.com)    
     
-[[ ArXiv ]](https://arxiv.org/abs/2001.02767)
+[[ ArXiv ]](#)
 
 Deep learning (DL) has been applied extensively in a wide range of fields. However, it has been shown that DL models are susceptible to a certain kinds of perturbations called **adversarial attacks**. To fully unlock the power of DL in critical fields such as financial trading, it is necessary to address such issues. In this paper, we present a method of constructing perturbed examples and use these examples to boost the robustness of the model. Our algorithm increases the stability of DL models for candlestick classification with respect to perturbations in the input
 data.
