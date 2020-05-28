@@ -29,8 +29,17 @@ The comparison between the output data of CVAE and our Modified Local Search Att
 **1. Clone and install the requirements**  
 ```
 $ git clone https://github.com/FinancialVision.git
-$ cd FinancialVision/
+$ cd FinancialVision/Data Augmentation For Deep Candlestick Learner/
 $ pip install -r requirements.txt
 ```
 **2. Download data from [here](https://drive.google.com/drive/folders/1hbA3EaMrf9CZBgU6VqQcAseBHuEuQgi-?fbclid=IwAR1dqeY7Q4DCYsdTGBWopDb3W4o6-ixCzRKlUNslHMZjQKuYg_JOHeWxRJs)**  
+**3. Train a CVAE model first, If needed.**
+```
+$ python cvae.py
+```
+**4. Generate augmented data with Motified Local Search Attack and CVAE model**
+```
+$ python adv_generator.py
+$ python cvae_generator.py
+```
 ## References
