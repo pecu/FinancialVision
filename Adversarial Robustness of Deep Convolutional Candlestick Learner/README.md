@@ -4,9 +4,8 @@
     
 [[ ArXiv ]](https://arxiv.org/abs/2001.02767)
 
-
-We provide a framework explaining the way that learned model determine the specific candlestick patterns,    
-which is based on local search adversarial attacks.
+Deep learning (DL) has been applied extensively in a wide range of fields. However, it has been shown that DL models are susceptible to a certain kinds of perturbations called **adversarial attacks**. To fully unlock the power of DL in critical fields such as financial trading, it is necessary to address such issues. In this paper, we present a method of constructing perturbed examples and use these examples to boost the robustness of the model. Our algorithm increases the stability of DL models for candlestick classification with respect to perturbations in the input
+data.
     
     
 
@@ -24,13 +23,18 @@ which is based on local search adversarial attacks.
 ## Usages
 #### 1. Clone and install the requirements    
     $ git clone https://github.com/pecu/FinancialVision.git
-    $ cd FinancialVision/
+    $ cd FinancialVision/Adversarial Robustness of Deep Convolutional Candlestick Learner/
     $ pip install -r requirements.txt
 #### 2. Download data from [here](https://drive.google.com/drive/folders/1hbA3EaMrf9CZBgU6VqQcAseBHuEuQgi-?fbclid=IwAR1dqeY7Q4DCYsdTGBWopDb3W4o6-ixCzRKlUNslHMZjQKuYg_JOHeWxRJs).
-- EURUSD_10bar_train1500_test500_val200.zip
-#### 3. Attack the model     
-    $ python main.py
-
+- For **clean examples**:
+    - label8_eurusd_10bar_1500_500_val200_gaf_culr.zip
+- For **merged examples**:
+    - merged_examples.zip
+#### 3.1 Train models with clean & merged examples respectively (100 times will be trained in default)
+    $ python clean_examples_training.py
+    $ python merged_examples_training.py
+#### 3.2 Attack the model     
+    $ python attack.py
 
 ## References
 1. Foolbox open-source (<https://github.com/bethgelab/foolbox>)
