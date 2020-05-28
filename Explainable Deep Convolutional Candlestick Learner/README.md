@@ -4,11 +4,7 @@
     
 [[ ArXiv ]](https://arxiv.org/abs/2001.02767)
 
-
-We provide a framework explaining the way that learned model determine the specific candlestick patterns,    
-which is based on local search adversarial attacks.
-    
-    
+Candlesticks are graphical representations of price movements for a given period. The traders can discover the trend of the asset by looking at the candlestick patterns. Although deep convolutional neural networks have achieved great success for recognizing the candlestick patterns, their reasoning hides inside a black box. The traders cannot make sure what the model has learned. In this contribution, we provide a framework which is to explain the reasoning of the learned model determining the specific candlestick patterns of time series. Based on the local search adversarial attacks, we show that the learned model perceives the pattern of the candlesticks in a way similar to the human trader.  
 
 
 ## Implementations
@@ -34,10 +30,10 @@ which is based on local search adversarial attacks.
 ## Usages
 #### 1. Clone and install the requirements    
     $ git clone https://github.com/pecu/FinancialVision.git
-    $ cd FinancialVision/
+    $ cd FinancialVision/Explainable Deep Convolutional Candlestick Learner/
     $ pip install -r requirements.txt
 #### 2. Download data from [here](https://drive.google.com/drive/folders/1hbA3EaMrf9CZBgU6VqQcAseBHuEuQgi-?fbclid=IwAR1dqeY7Q4DCYsdTGBWopDb3W4o6-ixCzRKlUNslHMZjQKuYg_JOHeWxRJs).
-- EURUSD_10bar_train1500_test500_val200.zip
+- label8_eurusd_10bar_1500_500_val200_gaf_culr.zip
 #### 3. Attack the model     
     $ python main.py
 
