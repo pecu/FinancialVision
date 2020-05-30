@@ -40,3 +40,13 @@ Candlesticks are graphical representations of price movements for a given period
 
 ## References
 1. Foolbox open-source (<https://github.com/bethgelab/foolbox>)
+
+To cite this study:
+```BibTeX
+@article{chen2020explainable,
+  title={Explainable Deep Convolutional Candlestick Learner},
+  author={Chen, Jun-Hao and Chen, Samuel Yen-Chi and Tsai, Yun-Cheng and Shur, Chih-Shiang},
+  journal={arXiv preprint arXiv:2001.02767},
+  year={2020}
+}
+```
