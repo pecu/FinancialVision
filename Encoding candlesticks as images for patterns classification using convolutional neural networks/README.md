@@ -32,7 +32,7 @@ To cite this study:
 ```BibTeX
 @article{tsai2019encoding,
   title={Encoding candlesticks as images for patterns classification using convolutional neural networks},
-  author={Tsai, Yun-Cheng and Chen, Jun-Hao and Wang, Chun-Chieh},
+  author={Chen, Jun-Hao and Tsai, Yun-Cheng},
   journal={arXiv preprint arXiv:1901.05237},
   year={2019}
 }
