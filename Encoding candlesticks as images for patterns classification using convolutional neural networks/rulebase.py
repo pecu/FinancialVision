@@ -15,7 +15,7 @@ def rename(data):
     return data
 
 
-def process_data(data, slope=true):
+def process_data(data, slope=True):
     '''Including calculation of CLUR, Quartiles, and cus trend
     Args:
         data (dataframe): csv data from assets. With column names open, high, low, close.
@@ -433,10 +433,10 @@ if __name__ == "__main__":
     data = rename(data)
 
     # calculate features & slope
-    data = process_data(data, slope=true)
+    data = process_data(data, slope=True)
 
     # calculate trend (depend on slopes)
-    data = process_data(data, slope=false)
+    data = process_data(data, slope=False)
 
     # save current data
     # data.to_csv('./data/eurusd_2010_2017_process.csv', index=False)
