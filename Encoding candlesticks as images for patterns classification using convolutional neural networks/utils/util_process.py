@@ -97,7 +97,7 @@ def get_slope(series):
 
 def get_trend(slope):
     '''Need to run `process_data` first with slope only, then calculate by yourself.
-    15 percentile: 7.214285714286977e-05
+    25 percentile: 7.214285714286977e-05
     '''
     slope = np.array(slope)
     thres = 7.214285714286977e-05
