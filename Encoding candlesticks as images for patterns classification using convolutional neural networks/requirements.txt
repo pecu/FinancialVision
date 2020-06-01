@@ -44,3 +44,4 @@ wincertstore==0.2
 wrapt==1.11.2
 pandas==1.0.3
 sklearn==0.0
+multiprocess==0.70.9
