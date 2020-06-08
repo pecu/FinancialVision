@@ -10,7 +10,7 @@ The project adopts deep learning models for financial data visualization. In fin
   
 ## List of our Research Topics
 - [Encoding candlesticks as images for patterns classification using convolutional neural networks](https://github.com/pecu/FinancialVision) [[Arxiv]](https://arxiv.org/abs/1901.05237)
-  - Chen, J., Tsai, Y. Encoding candlesticks as images for pattern classification using convolutional neural networks. Financ Innov 6, 26 (2020). (https://doi.org/10.1186/s40854-020-00187-0)[https://doi.org/10.1186/s40854-020-00187-0]
+  - Chen, J., Tsai, Y. Encoding candlesticks as images for pattern classification using convolutional neural networks. Financ Innov 6, 26 (2020). https://doi.org/10.1186/s40854-020-00187-0
 - [Explainable Deep Convolutional Candlestick Learner](https://github.com/pecu/FinancialVision/tree/master/Explainable%20Deep%20Convolutional%20Candlestick%20Learner)  [[Arxiv]](https://arxiv.org/abs/2001.02767)
   - Accepted by [The 32nd International Conference on Software Engineering & Knowledge Engineering (SEKE 2020)](http://ksiresearch.org/seke/seke20.html), KSIR Virtual Conference Cener, Pittsburgh, USA, July 9--July 19, 2020.
 - [Data Augmentation For Deep Candlestick Learner](https://github.com/pecu/FinancialVision/tree/master/Data%20Augmentation%20For%20Deep%20Candlestick%20Learner)  [[Arxiv]](https://arxiv.org/abs/2005.06731)
