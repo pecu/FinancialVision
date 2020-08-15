@@ -147,8 +147,9 @@ class LocalSearchAttack(Attack):
             # Reset
             if (_run + 1) % 10 == 0:
                 for channel in range(4):
-                    for x, y in PxPy:
-                        value = init_ls[channel][x]
+                    PxPy = np.sort(PxPy, axis=0)
+                    for idx, (x, y) in enumerate(PxPy):
+                        value = init_ls[channel][idx]
                         Ii[x, y, channel] = value
 
             # Computing the function g using the neighborhood (IMPORTANT: random subset for efficiency)
