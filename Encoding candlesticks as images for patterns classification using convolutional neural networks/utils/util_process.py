@@ -151,7 +151,7 @@ def get_trend(slope):
     thres = 7.214285714286977e-05
     if (slope >= thres):
         return 1
-    elif (slope <= -thres)
+    elif (slope <= -thres):
         return -1
     else:
         return 0
