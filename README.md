@@ -15,6 +15,8 @@ The project adopts deep learning models for financial data visualization. In fin
   - Accepted by [The 32nd International Conference on Software Engineering & Knowledge Engineering (SEKE 2020)](http://ksiresearch.org/seke/seke20.html), KSIR Virtual Conference Cener, Pittsburgh, USA, July 9--July 19, 2020.
 - [Data Augmentation For Deep Candlestick Learner](https://github.com/pecu/FinancialVision/tree/master/Data%20Augmentation%20For%20Deep%20Candlestick%20Learner)  [[Arxiv]](https://arxiv.org/abs/2005.06731)
 - [Adversarial Robustness of Deep Convolutional Candlestick Learner](https://github.com/pecu/FinancialVision/tree/master/Adversarial%20Robustness%20of%20Deep%20Convolutional%20Candlestick%20Learner)  [[Arxiv]](https://arxiv.org/abs/2006.03686)
+- [Deep Reinforcement Learning for Foreign Exchange Trading]() [[IEA/AIE 2020]](https://link.springer.com/chapter/10.1007/978-3-030-55789-8_34?fbclid=IwAR3kRZw9-PhK80ooSV7fRNih_XaHhBwdmmV3Fw7hJzV-ScMDhLoAmo8bIwU)
+  - Tsai YC., Wang CC., Szu FM., Wang KJ. (2020) Deep Reinforcement Learning for Foreign Exchange Trading. In: Fujita H., Fournier-Viger P., Ali M., Sasaki J. (eds) Trends in Artificial Intelligence Theory and Applications. Artificial Intelligence Practices. IEA/AIE 2020. Lecture Notes in Computer Science, vol 12144. Springer, Cham. https://doi.org/10.1007/978-3-030-55789-8_34
 
 ## PecuLab
 
@@ -23,5 +25,7 @@ The project adopts deep learning models for financial data visualization. In fin
 - Funder & Principal Investigator (PI): Yun-Cheng Tsai [Google Scholar](https://scholar.google.com/citations?user=a2LHNL8AAAAJ&hl=zh-TW)
 - Consultant: Samuel Yen-Chi Chen [Google Scholar](https://scholar.google.com/citations?user=A6dc7qMAAAAJ&hl=zh-TW)
 - Researcher: Jun-Hao Chen
+- Researcher: Fu-Min Szu
+- Researcher: Kuan-Jen Wang
 - Researcher: Chia-Ying Tsao
 - Researcher: Chih-Shiang Shur
