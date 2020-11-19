@@ -14,5 +14,6 @@ of trading strategies.
 
 ## Usages
 #### Train models with clean & merged examples respectively (100 times will be trained in default)
-    $ python trainer.py
-    $ python tester.py
+    $ pip install -r requirements.txt
+    $ python trainer.py "ppo" "EURUSD"
+    $ python tester.py "ppo" "EURUSD"
