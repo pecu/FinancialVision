@@ -1,3 +1,4 @@
+#test
 from lib.Market import Market
 from lib.Record import Record
 from lib.OrderManager import OrderManager
@@ -13,14 +14,14 @@ import logging
 import json
 import os, sys
 import pickle
+
 plt.style.use('ggplot')
 #logging.basicConfig(level=logging.INFO)
 
-
 def main():
-    _config = sys.argv[1].split('\\')
-    AGENT_METHOD = _config[-2]
-    CURRENCY_PAIR = _config[-1]
+    
+    AGENT_METHOD = sys.argv[1] # "ppo"
+    CURRENCY_PAIR = sys.argv[2] # "EURUSD"
 
     theMarket = Market(data_path="data/%s_Candlestick_4_Hour_BID_01.12.2018-31.12.2018.csv"%CURRENCY_PAIR)#, indicators={'ADX': 12})
     MyRecord = Record()
@@ -61,7 +62,7 @@ def main():
                 )
 
             )
-            agent.restore_model(sys.argv[1]+'/%04d'%the_episode)
+            agent.restore_model("save_model"+"/"+AGENT_METHOD+"/"+'%04d'%the_episode)
         else:
             agent = ConstantAgent(
                 states=dict(type='float', shape=(window_size,window_size,4)),               #[Open, High, Low, Close]
@@ -162,24 +163,17 @@ def main():
         for k in my_details:
             output_record[k].append(my_details[k])
         
-        #plt.plot(range(len(profit_history)), profit_history)
-        #plt.show()
-    '''
+        plt.plot(range(len(profit_history)), profit_history)
+        plt.show()
+        
+        
     for k in output_record:
         plt.plot(output_record['episode'], output_record[k])
         plt.title(k)
         plt.show()
-    '''
+    
     pd.DataFrame(output_record).to_csv('test_detail-episode.csv', index=False)
     
     
-
 if __name__=="__main__":
     main()
-
-
-
-
-
-
-
