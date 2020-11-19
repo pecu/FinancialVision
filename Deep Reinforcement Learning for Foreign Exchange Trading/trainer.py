@@ -11,12 +11,13 @@ import logging
 import json
 import os
 import pickle
+import sys
 plt.style.use('ggplot')
 #logging.basicConfig(level=logging.INFO)
 
 #SETTINGS
-AGENT_METHOD = 'dqn'
-CURRENCY_PAIR = 'EURUSD'
+AGENT_METHOD = sys.argv[1] #'ppo' 
+CURRENCY_PAIR =  sys.argv[2]  #'EURUSD'
 
 
 def main():
@@ -31,28 +32,41 @@ def main():
     window_size = 12
 
     # Create a RL agent
-    with open("config/%s.json"%AGENT_METHOD, 'r') as fp:
-        agent_config = json.load(fp=fp)
+    if AGENT_METHOD is not 'constant':
+        with open("config/%s.json"%AGENT_METHOD, 'r') as fp:
+            agent_config = json.load(fp=fp)
     with open("config/conv2d.json", 'r') as fp:
         network_config = json.load(fp=fp)
-    agent = Agent.from_spec(
-        spec=agent_config,
-        kwargs=dict(
-            states=dict(type='float', shape=(window_size,window_size,4)),               #[Open, High, Low, Close]
-            actions=dict(
-                SLTP_pips=dict(type='int', num_actions=len(SLTP_pips)),                 #[20,25,30]
-                start_order_type=dict(type='int', num_actions=len(start_order_type)),   #['BUY','SELL']
-                max_level_limit=dict(type='int', num_actions=len(max_level_limit))      #[2,3,4,5]
-            ),
-            network=network_config
-        )
+        
+    if AGENT_METHOD is not 'constant':
+        agent = Agent.from_spec(
+            spec=agent_config,
+            kwargs=dict(
+                states=dict(type='float', shape=(window_size,window_size,4)),               #[Open, High, Low, Close]
+                actions=dict(
+                    SLTP_pips=dict(type='int', num_actions=len(SLTP_pips)),                 #[20,25,30]
+                    start_order_type=dict(type='int', num_actions=len(start_order_type)),   #['BUY','SELL']
+                    max_level_limit=dict(type='int', num_actions=len(max_level_limit))      #[2,3,4,5]
+                ),
+                network=network_config
+            )
 
-    )
+        )
+    if AGENT_METHOD is 'constant':
+        agent = ConstantAgent(
+                    states=dict(type='float', shape=(window_size,window_size,4)),               #[Open, High, Low, Close]
+                    actions=dict(
+                        SLTP_pips=dict(type='int', num_actions=len(SLTP_pips)),                 #[20,25,30]
+                        start_order_type=dict(type='int', num_actions=len(start_order_type)),   #['BUY','SELL']
+                        max_level_limit=dict(type='int', num_actions=len(max_level_limit))      #[2,3,4]
+                    ),
+                    action_values={'SLTP_pips': 2, 'max_level_limit': 2, 'start_order_type': 0}
+                )
     if not os.path.exists("save_model/%s/trades"%AGENT_METHOD):
         os.makedirs("save_model/%s/trades"%AGENT_METHOD)
 
     reward_history = []
-    for episode in trange(100+1, ascii=True):
+    for episode in trange(200+1, ascii=True):
 
         profit_history = []
         this_reward_history = []
@@ -205,25 +219,18 @@ def main():
         #MyRecord.show_details()
         #print("Rounds of Tradings: %d\n"%round_count)
         
-    #with open('save_model/%s/trades/profit_history.pkl'%AGENT_METHOD, 'wb') as f:
-        #pickle.dump(profit_history,f,protocol=-1)
+    with open('save_model/%s/trades/profit_history.pkl'%AGENT_METHOD, 'wb') as f:
+        pickle.dump(profit_history,f,protocol=-1)
         
     with open('save_model/%s/trades/reward_history.pkl'%AGENT_METHOD, 'wb') as f:
         pickle.dump(reward_history,f,protocol=-1)
 
-    #plt.plot(range(len(profit_history)), profit_history)
-    #plt.show()
+#     plt.plot(range(len(profit_history)), profit_history)
+#     plt.show()
 
-    #plt.plot(range(len(reward_history)),reward_history)
-    #plt.show()
+#     plt.plot(range(len(reward_history)),reward_history)
+#     plt.show()
 
 
 if __name__=="__main__":
     main()
-
-
-
-
-
-
-
