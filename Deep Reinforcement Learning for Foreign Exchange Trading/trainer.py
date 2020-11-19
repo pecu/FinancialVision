@@ -66,7 +66,7 @@ def main():
         os.makedirs("save_model/%s/trades"%AGENT_METHOD)
 
     reward_history = []
-    for episode in trange(200+1, ascii=True):
+    for episode in trange(1500+1, ascii=True):
 
         profit_history = []
         this_reward_history = []
@@ -225,12 +225,13 @@ def main():
     with open('save_model/%s/trades/reward_history.pkl'%AGENT_METHOD, 'wb') as f:
         pickle.dump(reward_history,f,protocol=-1)
 
-#     plt.plot(range(len(profit_history)), profit_history)
-#     plt.show()
-
-#     plt.plot(range(len(reward_history)),reward_history)
-#     plt.show()
-
+    plt.plot(range(len(profit_history)), profit_history)
+    plt.show()
+    rew_list=[]
+    for i in range(len(np.array(reward_history))):
+        rew_list.append(np.array(reward_history[i]).mean())
+    plt.plot(range(len(rew_list)),rew_list)
+    plt.show()
 
 if __name__=="__main__":
     main()
