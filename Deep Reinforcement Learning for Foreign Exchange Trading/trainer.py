@@ -66,7 +66,7 @@ def main():
         os.makedirs("save_model/%s/trades"%AGENT_METHOD)
 
     reward_history = []
-    for episode in trange(1500+1, ascii=True):
+    for episode in trange(100+1, ascii=True):
 
         profit_history = []
         this_reward_history = []
