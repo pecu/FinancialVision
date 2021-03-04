@@ -24,7 +24,8 @@ The project adopts deep learning models for financial data visualization. In fin
 
 - Funder & Principal Investigator (PI): Yun-Cheng Tsai [Google Scholar](https://scholar.google.com/citations?user=a2LHNL8AAAAJ&hl=zh-TW)
 - Consultant: Samuel Yen-Chi Chen [Google Scholar](https://scholar.google.com/citations?user=A6dc7qMAAAAJ&hl=zh-TW)
-- Researcher: Jun-Hao Chen
+- Researcher: Jun-Hao Chen [Google Scholar](https://scholar.google.com/citations?user=nYhj0_4AAAAJ&hl=zh-TW)
+- Researcher: Chia-Hao Chiu
 - Researcher: Fu-Min Szu
 - Researcher: Kuan-Jen Wang
 - Researcher: Chia-Ying Tsao
