@@ -1,6 +1,6 @@
 # Explainable Cryptocurrency Candlestick Pattern AI Learner
 
-[Jun-Hao Chen](o1r2g3a4n5i6z7e8@gmail.com) and [Yun-Cheng Tsai](pecu610@gmail.com)
+[Jun-Hao Chen](o1r2g3a4n5i6z7e8@gmail.com), [Cheng-Han Wu](chwu0796@gmail.com), [Samuel Yen-Chi Chen](ycchen1989@gmail.com), and [Yun-Cheng Tsai](pecu610@gmail.com)   
     
 [[Arxiv]]
 
