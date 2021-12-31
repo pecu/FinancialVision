@@ -14,3 +14,14 @@ pip install -r requirements.txt
 python PATE_final.py
 ## Step 4. Run DP-SGD
 python DPSGD_final.py
+
+## References
+
+To cite this study:
+```BibTeX
+@inproceedings{Chen2021FinancialVB,
+  title={Financial Vision Based Differential Privacy Applications},
+  author={Jun-Hao Chen and Yi-Jen Wang and Yun-Cheng Tsai and Samuel Yen-Chi Chen},
+  year={2021}
+}
+```
