@@ -25,6 +25,7 @@ We defined the probability of training data being defined correctly by the attac
 python recognition_rate.py
 ```
 
+![figure](recognition_rate.png)
 
 ## References
 
