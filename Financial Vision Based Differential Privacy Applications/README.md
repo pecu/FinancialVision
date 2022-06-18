@@ -16,7 +16,7 @@ python PATE_final.py
 python DPSGD_final.py
 
 ## Attack DP-SGD models 
-We use the [ml\_privacy\_meter](https://github.com/privacytrustlab/ml_privacy_meter) package to attack the baseline and the DP-SGD models to understand how much data privacy these models can provide. A tutorial can be found [Here](https://github.com/privacytrustlab/ml_privacy_meter/tree/master/archive). The sample plot will in the logs/plots folder. The membership probability predictions for training set and population set by the model are also saved as numpy files in the logs folder as member_probs.npy and nonmember_probs.npy.
+We use the [ml\_privacy\_meter](https://github.com/privacytrustlab/ml_privacy_meter) package to attack the baseline model and the DP-SGD models to understand how much data privacy these models can provide. A tutorial can be found [Here](https://github.com/privacytrustlab/ml_privacy_meter/tree/master/archive). The below sample plot will in the logs/plots folder. The membership probability predictions for training set and population set by the model are also saved as numpy files in the logs folder as member_probs.npy and nonmember_probs.npy.
 
 ![figure](attack_result.png)
 
