@@ -15,12 +15,12 @@ python PATE_final.py
 ## Step 4. Run DP-SGD
 python DPSGD_final.py
 
-## model attack
-We use the [ml\_privacy\_meter](https://github.com/privacytrustlab/ml_privacy_meter) package to attack the baseline and the DP models separately to understand the probability distribution of recognized training data between these models. A tutorial can be found [Here](https://github.com/privacytrustlab/ml_privacy_meter/tree/master/archive). The sample plot will in the logs/plots folder. The membership probability predictions for training set and population set by the model are also saved as numpy files in the logs folder as member_probs.npy and nonmember_probs.npy.
+## Attack DP-SGD models 
+We use the [ml\_privacy\_meter](https://github.com/privacytrustlab/ml_privacy_meter) package to attack the baseline and the DP-SGD models to understand how much data privacy these models can provide. A tutorial can be found [Here](https://github.com/privacytrustlab/ml_privacy_meter/tree/master/archive). The sample plot will in the logs/plots folder. The membership probability predictions for training set and population set by the model are also saved as numpy files in the logs folder as member_probs.npy and nonmember_probs.npy.
 
 ![figure](attack_result.png)
 
-We defined the probability of training data being defined correctly by the attack model as recognition rate. The recognition rate can be visualize by calling
+We defined the probability of training data being defined correctly by the attack model as recognition rate. The recognition rate can be visualizing by calling
 ``` 
 python recognition_rate.py
 ```
