@@ -1,4 +1,4 @@
-# The Protection} of Data Sharing for Privacy in Financial Vision
+# The Protection of Data Sharing for Privacy in Financial Vision
 
 [Yi-Jen Wang](yiren513@gmail.com) and [Yun-Cheng Tsai](pecu610@gmail.com)
 
