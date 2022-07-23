@@ -1,10 +1,8 @@
-# Financial Vision Based Differential Privacy Applications
+# The Protection} of Data Sharing for Privacy in Financial Vision
 
-[Jun-Hao Chen](o1r2g3a4n5i6z7e8@gmail.com), [Yi-Jen Wang](yiren513@gmail.com), [Yun-Cheng Tsai](pecu610@gmail.com), and [Samuel Yen-Chi Chen](ycchen1989@gmail.com)
-    
-[[ ArXiv ]](https://arxiv.org/abs/2112.14075?fbclid=IwAR0sNsMn8umjyEkm2GVfK79ww-klERPr_UOM6wac0FRWlk0BMdXBx0pCnqM)
+[Yi-Jen Wang](yiren513@gmail.com) and [Yun-Cheng Tsai](pecu610@gmail.com)
 
-The importance of deep learning data privacy has gained significant attention in recent years. It is probably to suffer data breaches when applying deep learning to cryptocurrency that lacks supervision of financial regulatory agencies. However, there is little relative research in the financial area to our best knowledge. We apply two representative deep learning privacy-privacy frameworks proposed by Google to financial trading data. We designed the experiments with several different parameters suggested from the original studies. In addition, we refer the degree of privacy to Google and Apple companies to estimate the results more reasonably. The results show that DP-SGD performs better than the PATE framework in financial trading data. The tradeoff between privacy and accuracy is low in DP-SGD. The degree of privacy also is in line with the actual case. Therefore, we can obtain a strong privacy guarantee with precision to avoid potential financial loss.
+The primary motivation is to address difficulties in data interpretation or a reduction in model accuracy. Although differential privacy can provide data privacy guarantees, it also creates problems. Thus, we need to consider the noise setting for differential privacy is currently inconclusive. This paper's main contribution is finding a balance between privacy and accuracy. The training data of deep learning models may contain private or sensitive corporate information. These may be dangerous to attacks, leading to privacy data leakage for data sharing. Many strategies are for privacy protection, and differential privacy is the most widely applied one. Google proposed a federated learning technology to solve the problem of data silos in 2016. The technology can share information without exchanging original data and has made significant progress in the medical field. However, there is still the risk of data leakage in federated learning; thus, many models are now used with differential privacy mechanisms to minimize the risk. The data in the financial field are similar to medical data, which contains a substantial amount of personal data. The leakage may cause uncontrollable consequences, making data exchange and sharing difficult. Let us suppose that differential privacy applies to the financial field. Financial institutions can provide customers with higher value and personalized services and automate credit scoring and risk management. Unfortunately, the economic area rarely applies differential privacy and attains no consensus on parameter settings. This study compares data security with non-private and differential privacy financial visual models. The paper finds a balance between privacy protection with model accuracy. The results show that when the privacy loss parameter $\epsilon$ is between 12.62 and 5.41, the privacy models can protect training data, and the accuracy does not decrease too much.
 
 ## Step 1. Create python 3.7 environment
 conda create -m -n envname python=3.7
@@ -26,14 +24,3 @@ python recognition_rate.py
 ```
 
 ![figure](recognition_rate.png)
-
-## References
-
-To cite this study:
-```BibTeX
-@inproceedings{Chen2021FinancialVB,
-  title={Financial Vision Based Differential Privacy Applications},
-  author={Jun-Hao Chen and Yi-Jen Wang and Yun-Cheng Tsai and Samuel Yen-Chi Chen},
-  year={2021}
-}
-```
