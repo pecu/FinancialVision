@@ -9,6 +9,9 @@ The project adopts deep learning models for financial data visualization. In fin
 <p>
   
 ## List of our Research Topics
+
+- [The Protection of Data Sharing for Privacy in Financial Vision](https://github.com/pecu/FinancialVision/tree/master/Financial%20Vision%20Based%20Differential%20Privacy%20Applications)
+  - Y.R. Wang and Y.C. Tsai. The Protection of Data Sharing for Privacy in Financial Vision. Accepted by Appl. Sci. (2022).
 - [Encoding candlesticks as images for patterns classification using convolutional neural networks](https://github.com/pecu/FinancialVision) [[Arxiv]](https://arxiv.org/abs/1901.05237)
   - Chen, J., Tsai, Y. Encoding candlesticks as images for pattern classification using convolutional neural networks. Financ Innov 6, 26 (2020). https://doi.org/10.1186/s40854-020-00187-0
 - [Explainable Deep Convolutional Candlestick Learner](https://github.com/pecu/FinancialVision/tree/master/Explainable%20Deep%20Convolutional%20Candlestick%20Learner)  [[Arxiv]](https://arxiv.org/abs/2001.02767)
@@ -30,3 +33,4 @@ The project adopts deep learning models for financial data visualization. In fin
 - Researcher: Kuan-Jen Wang
 - Researcher: Chia-Ying Tsao
 - Researcher: Chih-Shiang Shur
+- Researcher: Cheng-Han Wu
