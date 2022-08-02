@@ -29,4 +29,13 @@ Despite the deep convolutional neural networks (CNNs) have a significant perform
 ## References
 
 To cite this study:
-
+```BibTeX
+@inproceedings{chen2022explainable,
+  title={Explainable Digital Currency Candlestick Pattern AI Learner},
+  author={Chen, Jun-Hao and Wu, Cheng-Han and Tsai, Yun-Chneg and Chen, Samuel Yen-Chi},
+  booktitle={2022 14th International Conference on Knowledge and Smart Technology (KST)},
+  pages={91--96},
+  year={2022},
+  organization={IEEE}
+}
+```
