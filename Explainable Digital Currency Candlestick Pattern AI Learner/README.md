@@ -11,9 +11,8 @@ Despite the deep convolutional neural networks (CNNs) have a significant perform
 
 ## Results
 * The attack result of the original model
+<img src='https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/image/result/Attacking%20Result%20of%20the%20Original%20Model.png' width = "50" height = "20" align='left'/>
 
-<img src='https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/image/result/Attacking%20Result%20of%20the%20Original%20Model.png' align='left'/>
-###
 
 
 ### Data
