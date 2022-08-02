@@ -12,7 +12,7 @@ Despite the deep convolutional neural networks (CNNs) have a significant perform
 The Figure can be seem as an important feature heatmap. The successful attack ratio ranges from 0 to 100 percent. The data point is more critical when the percentage is higher.
 
 * The attack result of the original model
-
+The overall ratios are low; only a few blocks are significantly red. Especially the ratio of knowledge-based data points that locate in the last three candlesticks is low and unevenly distributed.
 <p align="left">
   <img src="https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Original%20Model.png" width = "600" height = "300">
 <p>
