@@ -9,7 +9,7 @@ Despite the deep convolutional neural networks (CNNs) have a significant perform
 
 
 ## Results
-The Figure can be seem as an important feature heatmap. The successful attack ratio ranges from 0 to 100 percent. The data point is more critical when the percentage is higher.
+The Figure can be seem as an important feature heatmap. The successful attack ratio ranges from 0 to 100 percent. The data point is more critical when the percentage is higher. In summary, retraining the model with the perturbated adversarial samples without human's control can significantly improve the feature importance of prior-knowledge-based data points and makes the model more trustable for the human trader.
 
 * The attack result of the original model:  
 The overall ratios are low; only a few blocks are significantly red. Especially the ratios of knowledge-based data points that locate in the last three candlesticks are low and unevenly distributed.
@@ -18,12 +18,13 @@ The overall ratios are low; only a few blocks are significantly red. Especially 
 <p>
 
 * The attack result of the model in experiment 1:  
-The result is closer to the prior knowledge rule, since the ratios of knowledge-based data points that locate in the last three candlesticks are significantly enhanced. It means that the retrain model has learned the critical pattern rules and apply them to the classification.
+The result is much closer to the prior knowledge rule, since the ratios of knowledge-based data points that locate in the last three candlesticks are significantly enhanced. It means that the retrain model has learned the critical pattern rules and apply them to the classification.
 <p align="left">
   <img src="https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%201%20Model.png" width = "600" height = "300">
 <p>
 
-* The attack result of the model in experiment 2
+* The attack result of the model in experiment 2:  
+The important feature heatmap does not have a considerable improvement in general. The result can explain that it is not easy to control the learning process of deep learning.
 <p align="left">
   <img src="https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%202%20Model.png" width = "600" height = "300">
 <p>
