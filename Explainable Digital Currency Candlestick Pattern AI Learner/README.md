@@ -15,7 +15,7 @@ Despite the deep convolutional neural networks (CNNs) have a significant perform
 
 
 
-### Data
+## Data
   - Data can be downloaded from here ([ETH_gaf.pkl](https://drive.google.com/file/d/1ZtShhD_TkEaBQNFH-D4HQ2QH8Pllhsy9/view?usp=sharing)).
 
 ## Usages
