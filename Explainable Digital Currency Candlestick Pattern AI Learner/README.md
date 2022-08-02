@@ -8,8 +8,6 @@ More and more hedge funds have integrated AI techniques into the traditional tra
 Despite the deep convolutional neural networks (CNNs) have a significant performance. Especially in a highly speculative market, blindly trusting a black-box model will incur lots of troubles. Therefore, it is necessary to incorporate explainability into a DNN-based classic trading strategy, candlestick pattern recognition. It can make an acceptable justification for traders in the cryptocurrency market. The paper exposes the black box and provides two algorithms as following. The first is an Adversarial Interpreter to explore the explainability. The second is an Adversarial Generator to enhance the model's explainability. To trust in the AI model and understand its judgment, the participant adopts powerful AI techniques to create more possibilities for AI in the cryptocurrency market.
 
 
-## Implementations
-
 
 ## Results
 
