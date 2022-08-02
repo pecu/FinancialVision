@@ -10,16 +10,12 @@ Despite the deep convolutional neural networks (CNNs) have a significant perform
 
 ## Results
 * The attack result of the original model
-<img src='https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Original%20Model.png' width = "600" height = "300" align='left'/>
-<br/>
+<p align="left">
+  <img src="https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%201%20Model.png" width = "600" height = "300">
+<p>
 
-* The attack result of the model in experiment 1
-<img src='https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%201%20Model.png' width = "600" height = "300" align='left'/>
-<br/>
 
-* The attack result of the model in experiment 2
-<img src='https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%202%20Model.png' width = "600" height = "300" align='left'/>
-<br/>
+
 
 ## Data
   - Data can be downloaded from here ([ETH_gaf.pkl](https://drive.google.com/file/d/1ZtShhD_TkEaBQNFH-D4HQ2QH8Pllhsy9/view?usp=sharing)).
