@@ -4,8 +4,7 @@
     
 [[ IEEE Xplore ]](https://ieeexplore.ieee.org/document/9727231?fbclid=IwAR3doeRuCKiY19_yQbSFqeiKBnurg4n1eK9tPEETEpiCXp2kolE1hYB-I7M)
 
-More and more hedge funds have integrated AI techniques into the traditional trading strategy to speculate on cryptocurrency. Among the conventional technical analysis, candlestick pattern recognition is a critical financial trading technique by visual judgment on graphical price movement. A model with high accuracy still can not meet the demand under the highly regulated financial industry that requires understanding the decision-making and quantifying the potential risk. 
-Despite the deep convolutional neural networks (CNNs) have a significant performance. Especially in a highly speculative market, blindly trusting a black-box model will incur lots of troubles. Therefore, it is necessary to incorporate explainability into a DNN-based classic trading strategy, candlestick pattern recognition. It can make an acceptable justification for traders in the cryptocurrency market. The paper exposes the black box and provides two algorithms as following. The first is an Adversarial Interpreter to explore the explainability. The second is an Adversarial Generator to enhance the model's explainability. To trust in the AI model and understand its judgment, the participant adopts powerful AI techniques to create more possibilities for AI in the cryptocurrency market.
+More and more hedge funds have integrated AI techniques into the traditional trading strategy to speculate on cryptocurrency. Among the conventional technical analysis, candlestick pattern recognition is a critical financial trading technique by visual judgment on graphical price movement. However, the deep neural network (DNN) model with high accuracy still can not meet the demand under the highly regulated financial industry that requires understanding the decision-making and quantifying the potential risk. Especially in a highly speculative market, blindly trusting a black-box model will incur lots of troubles. Therefore, the study incorporates explainability into a DNN-based classic trading strategy, candlestick pattern recognition and aims to make an acceptable justification for traders in the cryptocurrency market. The paper exposes the black box and provides two algorithms as following. The first is an Adversarial Interpreter to explore the explainability. The second is an Adversarial Generator to enhance the model's explainability. With more trust in the AI model and understanding in its judgment, the participant will create more possibilities for AI in the cryptocurrency market.
 
 
 ## Results
@@ -18,13 +17,13 @@ The overall ratios are low; only a few blocks are significantly red. Especially 
 <p>
 
 * The attack result of the model in experiment 1:  
-The result is much closer to the prior knowledge rule, since the ratios of knowledge-based data points that locate in the last three candlesticks are significantly enhanced. It means that the retrain model has learned the critical pattern rules and apply them to the classification.
+The result is much closer to the prior knowledge rule, since the ratios of knowledge-based data points that locate in the last three candlesticks are significantly enhanced. It means that the re-trained model has learned the critical pattern rules and applied them to the classification.
 <p align="left">
   <img src="https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%201%20Model.png" width = "600" height = "300">
 <p>
 
 * The attack result of the model in experiment 2:  
-The important feature heatmap does not have a considerable improvement in general. The result can explain that it is not easy to control the learning process of deep learning.
+The important feature heatmap does not have a considerable improvement in general, which means that it is not easy to control the learning process of deep learning.
 <p align="left">
   <img src="https://github.com/pecu/FinancialVision/blob/master/Explainable%20Digital%20Currency%20Candlestick%20Pattern%20AI%20Learner/images/Attacking%20Result%20of%20the%20Experiment%202%20Model.png" width = "600" height = "300">
 <p>
